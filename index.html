@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASG u Braci Broni</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #444;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #e63946;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 10px;
+            color: #f0f0f0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+        #galeria h2, #kontakt h2 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        .contact {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1f1f1f;
+            border-top: 2px solid #444;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            section {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ASG u Braci Broni</h1>
+        <nav>
+            <a href="#galeria">Galeria</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header><section id="galeria">
+    <h2>Galeria</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1600585154031-17ee6c62c7fe" alt="Wojskowa akcja 1">
+        <img src="https://images.unsplash.com/photo-1581091012184-5c1d7b1a3f6c" alt="Wojskowa akcja 2">
+        <img src="https://images.unsplash.com/photo-1622319279482-0b8357e11267" alt="Wojskowa akcja 3">
+        <img src="https://images.unsplash.com/photo-1622627811484-83c9e4b72845" alt="Wojskowy sprzęt">
+        <img src="https://images.unsplash.com/photo-1590362891991-f776e747a588" alt="Taktyczny manewr">
+        <img src="https://images.unsplash.com/photo-1625940956695-06fa3e1e4a32" alt="Walka w terenie">
+    </div>
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <div class="contact">
+        <p><strong>Telefon:</strong> 123-456-789</p>
+        <p><strong>Email:</strong> kontakt@bracibrani.pl</p>
+        <p><strong>Lokalizacja:</strong> ul. Leśna 5, 00-000 Miasteczko</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 ASG u Braci Broni. Wszelkie prawa zastrzeżone.</p>
+</footer>
+</body>
+</html>
